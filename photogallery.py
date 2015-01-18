@@ -25,9 +25,9 @@ PAGE = u'''
 '''
 
 PHOTO = '''
-<div>
-<a href="images/%(file)s">
-<img src="thumbnails/%(file)s" alt="%(comment)s">
+<div style="display: inline; background-color:#0F0F0F">
+<a href="images/%(png)s">
+<img src="thumbnails/%(png)s" alt="%(comment)s">
 </a>
 <p>%(comment)s</p>
 </div>
@@ -47,6 +47,7 @@ def parse_config(config):
         page = {'name': p.keys()[0], 'photos': []}
         for h in p[p.keys()[0]]:
             photo = {'file': h.keys()[0], 'comment': h[h.keys()[0]]}
+            photo['png'] = toext(photo['file'], '.png')
             page['photos'].append(photo)
         pages.append(page)
     gallery['pages'] = pages
@@ -100,12 +101,11 @@ def toext(filename, extension):
 def generate_images(page, gallery):
     for photo in page['photos']:
         print "Converting %s" % photo['file']
-        png_file = toext(photo['file'], '.png')
         source = os.path.join(gallery['source'], photo['file'])
-        image = os.path.join(gallery['destination'], 'images', png_file)
-        os.system("convert '%s' -resize %s^ '%s'" % (source, gallery['format']['image'], image))
-        thumbnail = os.path.join(gallery['destination'], 'thumbnails', png_file)
-        os.system("convert '%s' -resize %s^ '%s'" % (source, gallery['format']['thumbnail'], thumbnail))
+        image = os.path.join(gallery['destination'], 'images', photo['png'])
+        os.system("convert '%s' -resize %s '%s'" % (source, gallery['format']['image'], image))
+        thumbnail = os.path.join(gallery['destination'], 'thumbnails', photo['png'])
+        os.system("convert '%s' -resize %s '%s'" % (source, gallery['format']['thumbnail'], thumbnail))
 
 def generate_page(page, index, gallery):
     print "Generating page '%s'..." % page['name']
