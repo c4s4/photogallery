@@ -20,12 +20,14 @@ PAGE = u'''
 </head>
 <body bgcolor="%(bgcolor)s" text="%(textcolor)s">
 <h2 align="center">%(title)s</h2>
+<div>
 %(photos)s
+</div>
 </body>
 '''
 
 PHOTO = '''
-<div style="display: inline; background-color:#0F0F0F">
+<div style="float: left; width: 320; height: 180; margin: 10">
 <a href="images/%(png)s">
 <img src="thumbnails/%(png)s" alt="%(comment)s">
 </a>
@@ -90,7 +92,7 @@ def generate_html(page, index, gallery):
     }
     html = PAGE % data
     filename = os.path.join(gallery['destination'], "index-%s.html" % index)
-    with codecs.open(filename, mode='w', encoding='UTF-8', errors='strict') as f:
+    with codecs.open(filename, mode='w', encoding='UTF-8') as f:
         f.write(html)
 
 
@@ -103,9 +105,12 @@ def generate_images(page, gallery):
         print "Converting %s" % photo['file']
         source = os.path.join(gallery['source'], photo['file'])
         image = os.path.join(gallery['destination'], 'images', photo['png'])
-        os.system("convert '%s' -resize %s '%s'" % (source, gallery['format']['image'], image))
-        thumbnail = os.path.join(gallery['destination'], 'thumbnails', photo['png'])
-        os.system("convert '%s' -resize %s '%s'" % (source, gallery['format']['thumbnail'], thumbnail))
+        os.system("convert '%s' -resize %s '%s'" %
+                  (source, gallery['format']['image'], image))
+        thumb = os.path.join(gallery['destination'], 'thumbnails', photo['png'])
+        os.system("convert '%s' -resize %s '%s'" %
+                  (source, gallery['format']['thumbnail'], thumb))
+
 
 def generate_page(page, index, gallery):
     print "Generating page '%s'..." % page['name']
