@@ -8,12 +8,49 @@
 import os
 import sys
 import yaml
+import codecs
 import traceback
+
+
+PAGE = u'''
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>%(title)s</title>
+</head>
+<body bgcolor="%(bgcolor)s" text="%(textcolor)s">
+<h2 align="center">%(title)s</h2>
+%(photos)s
+</body>
+'''
+
+PHOTO = '''
+<div>
+<a href="images/%(file)s">
+<img src="thumbnails/%(file)s" alt="%(comment)s">
+</a>
+<p>%(comment)s</p>
+</div>
+'''
 
 
 class ManagedException(Exception):
 
     pass
+
+
+def parse_config(config):
+    with open(config) as stream:
+        gallery = yaml.load(stream)
+    pages = []
+    for p in gallery['pages']:
+        page = {'name': p.keys()[0], 'photos': []}
+        for h in p[p.keys()[0]]:
+            photo = {'file': h.keys()[0], 'comment': h[h.keys()[0]]}
+            page['photos'].append(photo)
+        pages.append(page)
+    gallery['pages'] = pages
+    return gallery
 
 
 def directories(gallery):
@@ -22,21 +59,69 @@ def directories(gallery):
     if os.path.exists(gallery['destination']):
         raise ManagedException("Destination directory already exists")
     os.makedirs(gallery['destination'])
+    os.makedirs(os.path.join(gallery['destination'], 'images'))
+    os.makedirs(os.path.join(gallery['destination'], 'thumbnails'))
+    print "Directory created"
 
 
 def check_photos(gallery):
-    for page in gallery['pages'].values():
-        for photo in page.values():
-            # DEBUG
-            print photo
+    missing = False
+    for page in gallery['pages']:
+        for photo in page['photos']:
+            path = os.path.join(gallery['source'], photo['file'])
+            if not os.path.exists(path):
+                print "Photo '%s' was not found" % photo['file']
+                missing = True
+    if missing:
+        raise ManagedException("Some photos are missing")
+    print "All photos found"
+
+
+def generate_html(page, index, gallery):
+    photos = ''
+    for photo in page['photos']:
+        photos += PHOTO % photo
+    data = {
+        'title': page['name'],
+        'bgcolor': '#000000',
+        'textcolor': '#FFFFFF',
+        'photos': photos,
+    }
+    html = PAGE % data
+    filename = os.path.join(gallery['destination'], "index-%s.html" % index)
+    with codecs.open(filename, mode='w', encoding='UTF-8', errors='strict') as f:
+        f.write(html)
+
+
+def toext(filename, extension):
+    return filename[:filename.rindex('.')]+extension
+
+
+def generate_images(page, gallery):
+    for photo in page['photos']:
+        print "Converting %s" % photo['file']
+        png_file = toext(photo['file'], '.png')
+        source = os.path.join(gallery['source'], photo['file'])
+        image = os.path.join(gallery['destination'], 'images', png_file)
+        os.system("convert '%s' -resize %s^ '%s'" % (source, gallery['format']['image'], image))
+        thumbnail = os.path.join(gallery['destination'], 'thumbnails', png_file)
+        os.system("convert '%s' -resize %s^ '%s'" % (source, gallery['format']['thumbnail'], thumbnail))
+
+def generate_page(page, index, gallery):
+    print "Generating page '%s'..." % page['name']
+    generate_html(page, index, gallery)
+    generate_images(page, gallery)
 
 
 def main(config):
     try:
-        with open(config) as stream:
-            gallery = yaml.load(stream)
+        gallery = parse_config(config)
         directories(gallery)
         check_photos(gallery)
+        index = 1
+        for page in gallery['pages']:
+            generate_page(page, index, gallery)
+            index += 1
     except ManagedException as e:
         print "ERROR: %s" % e
     except Exception as e:
