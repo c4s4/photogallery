@@ -17,21 +17,30 @@ PAGE = u'''
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>%(title)s</title>
+<style>
+div
+{
+    float: left;
+    width: 320;
+    height: 200;
+    margin: 10;
+    text-align: center;
+}
+</style>
 </head>
 <body bgcolor="%(bgcolor)s" text="%(textcolor)s">
-<h2 align="center">%(title)s</h2>
-<div>
+<h1 align="center">%(title)s</h1>
 %(photos)s
-</div>
 </body>
 '''
 
 PHOTO = '''
-<div style="float: left; width: 320; height: 180; margin: 10">
+<div>
 <a href="images/%(png)s">
 <img src="thumbnails/%(png)s" alt="%(comment)s">
 </a>
-<p>%(comment)s</p>
+<br>
+%(comment)s
 </div>
 '''
 
