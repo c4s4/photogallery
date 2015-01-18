@@ -25,8 +25,8 @@ def directories(gallery):
 
 
 def check_photos(gallery):
-    for page in gallery['pages']:
-        for photo in page:
+    for page in gallery['pages'].values():
+        for photo in page.values():
             # DEBUG
             print photo
 
