@@ -171,6 +171,15 @@ def generate_page(page, index, gallery):
     generate_images(page, gallery)
 
 
+def make_link(gallery):
+    current_dir = os.getcwd()
+    try:
+        os.chdir(gallery['destination'])
+        os.symlink('index-1.html', 'index.html')
+    finally:
+        os.chdir(current_dir)
+
+
 def main(config):
     try:
         gallery = parse_config(config)
@@ -181,6 +190,7 @@ def main(config):
         for page in gallery['pages']:
             generate_page(page, index, gallery)
             index += 1
+        make_link(gallery)
     except ManagedException as e:
         print "ERROR: %s" % e
     except Exception as e:
