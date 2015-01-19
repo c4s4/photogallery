@@ -1,9 +1,12 @@
 title:       Vacances en Espagne été 2013
-source:      /home/casa/dsk/2013-08-23 Vacances Espagne Malaga 2013/
-destination: /home/casa/dsk/espagne-2013/
+source:      ~/dsk/2013-08-23 Vacances Espagne Malaga 2013/
+destination: ~/dsk/espagne-2013/
 format:
   image:     1920x1080
-  thumbnail: 320x180
+  thumbnail: 240x135
+color:
+  background: '#000000'
+  foreground: '#FFFFFF'
 pages:
 - Alcazaba de Malaga:
   - 20130823_142434.jpg: La muraille

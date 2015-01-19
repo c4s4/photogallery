@@ -3,7 +3,7 @@
 #
 # Script to generate a web photo gallery. Usage:
 #
-#   python photogallery.py config.yml
+#   python photogallery.py config.yml [config2.yml...]
 
 import os
 import sys
@@ -16,20 +16,48 @@ PAGE = u'''
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>%(title)s</title>
+<title>%(gallery)s - %(title)s</title>
 <style>
 div
 {
     float: left;
-    width: 320;
-    height: 200;
+    width: %(width)s;
+    height: %(height)s;
     margin: 10;
     text-align: center;
 }
+img
+{
+    border-style: none;
+}
+h1
+{
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+}
+a:link
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #AFAFAF;
+    text-decoration: none;
+}
 </style>
 </head>
-<body bgcolor="%(bgcolor)s" text="%(textcolor)s">
-<h1 align="center">%(title)s</h1>
+<body bgcolor="%(bgcolor)s" text="%(txtcolor)s">
+<h1>%(gallery)s</h1>
+<hr>
+<center>
+%(navigation)s
+</center>
+<hr>
+<h2>%(title)s</h2>
 %(photos)s
 </body>
 '''
@@ -66,14 +94,16 @@ def parse_config(config):
 
 
 def directories(gallery):
-    if not os.path.exists(gallery['source']):
-        raise ManagedException("Source directory doesn't exists")
-    if os.path.exists(gallery['destination']):
-        raise ManagedException("Destination directory already exists")
-    os.makedirs(gallery['destination'])
-    os.makedirs(os.path.join(gallery['destination'], 'images'))
-    os.makedirs(os.path.join(gallery['destination'], 'thumbnails'))
-    print "Directory created"
+    gallery['source'] = os.path.expanduser(gallery['source'])
+    gallery['destination'] = os.path.expanduser(gallery['destination'])
+    # if not os.path.exists(gallery['source']):
+    #     raise ManagedException("Source directory doesn't exists")
+    # if os.path.exists(gallery['destination']):
+    #     raise ManagedException("Destination directory already exists")
+    # os.makedirs(gallery['destination'])
+    # os.makedirs(os.path.join(gallery['destination'], 'images'))
+    # os.makedirs(os.path.join(gallery['destination'], 'thumbnails'))
+    # print "Directory created"
 
 
 def check_photos(gallery):
@@ -93,11 +123,23 @@ def generate_html(page, index, gallery):
     photos = ''
     for photo in page['photos']:
         photos += PHOTO % photo
+    width, height = \
+        [int(d.strip()) for d in gallery['format']['thumbnail'].split('x')]
+    navigation = []
+    i = 1
+    for page in gallery['pages']:
+        navigation.append('<a href="index-%s.html">%s</a>' %
+                          (i, page['name']))
+        i += 1
     data = {
+        'gallery': gallery['title'],
         'title': page['name'],
-        'bgcolor': '#000000',
-        'textcolor': '#FFFFFF',
+        'bgcolor': gallery['color']['background'],
+        'txtcolor': gallery['color']['foreground'],
         'photos': photos,
+        'width': width,
+        'height': height + 20,
+        'navigation': '&nbsp;-&nbsp;'.join(navigation)
     }
     html = PAGE % data
     filename = os.path.join(gallery['destination'], "index-%s.html" % index)
@@ -122,16 +164,19 @@ def generate_images(page, gallery):
 
 
 def generate_page(page, index, gallery):
-    print "Generating page '%s'..." % page['name']
+    print "Generating page '%s'" % page['name']
     generate_html(page, index, gallery)
-    generate_images(page, gallery)
+    # DEBUG
+    # generate_images(page, gallery)
 
 
 def main(config):
     try:
         gallery = parse_config(config)
+        print "Generating gallery '%s'" % gallery['title']
         directories(gallery)
-        check_photos(gallery)
+        # DEBUG
+        # check_photos(gallery)
         index = 1
         for page in gallery['pages']:
             generate_page(page, index, gallery)
@@ -144,8 +189,9 @@ def main(config):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 2:
-        print "You must pass configuration file in command line"
+    if len(sys.argv) < 2:
+        print "You must pass configuration file(s) in command line"
         sys.exit(1)
-    _config = sys.argv[1]
-    main(_config)
+    configs = sys.argv[1:]
+    for c in configs:
+        main(c)
