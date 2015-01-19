@@ -40,12 +40,12 @@ h2
 }
 a:link
 {
-    color: #FFFFFF;
+    color: %(link)s;
     text-decoration: none;
 }
 a:visited
 {
-    color: #AFAFAF;
+    color: %(visited)s;
     text-decoration: none;
 }
 </style>
@@ -96,14 +96,14 @@ def parse_config(config):
 def directories(gallery):
     gallery['source'] = os.path.expanduser(gallery['source'])
     gallery['destination'] = os.path.expanduser(gallery['destination'])
-    # if not os.path.exists(gallery['source']):
-    #     raise ManagedException("Source directory doesn't exists")
-    # if os.path.exists(gallery['destination']):
-    #     raise ManagedException("Destination directory already exists")
-    # os.makedirs(gallery['destination'])
-    # os.makedirs(os.path.join(gallery['destination'], 'images'))
-    # os.makedirs(os.path.join(gallery['destination'], 'thumbnails'))
-    # print "Directory created"
+    if not os.path.exists(gallery['source']):
+        raise ManagedException("Source directory doesn't exists")
+    if os.path.exists(gallery['destination']):
+        raise ManagedException("Destination directory already exists")
+    os.makedirs(gallery['destination'])
+    os.makedirs(os.path.join(gallery['destination'], 'images'))
+    os.makedirs(os.path.join(gallery['destination'], 'thumbnails'))
+    print "Directory created"
 
 
 def check_photos(gallery):
@@ -127,9 +127,9 @@ def generate_html(page, index, gallery):
         [int(d.strip()) for d in gallery['format']['thumbnail'].split('x')]
     navigation = []
     i = 1
-    for page in gallery['pages']:
+    for p in gallery['pages']:
         navigation.append('<a href="index-%s.html">%s</a>' %
-                          (i, page['name']))
+                          (i, p['name']))
         i += 1
     data = {
         'gallery': gallery['title'],
@@ -139,7 +139,9 @@ def generate_html(page, index, gallery):
         'photos': photos,
         'width': width,
         'height': height + 20,
-        'navigation': '&nbsp;-&nbsp;'.join(navigation)
+        'navigation': '&nbsp;-&nbsp;'.join(navigation),
+        'link': gallery['link']['new'],
+        'visited': gallery['link']['visited'],
     }
     html = PAGE % data
     filename = os.path.join(gallery['destination'], "index-%s.html" % index)
@@ -166,8 +168,7 @@ def generate_images(page, gallery):
 def generate_page(page, index, gallery):
     print "Generating page '%s'" % page['name']
     generate_html(page, index, gallery)
-    # DEBUG
-    # generate_images(page, gallery)
+    generate_images(page, gallery)
 
 
 def main(config):
@@ -175,8 +176,7 @@ def main(config):
         gallery = parse_config(config)
         print "Generating gallery '%s'" % gallery['title']
         directories(gallery)
-        # DEBUG
-        # check_photos(gallery)
+        check_photos(gallery)
         index = 1
         for page in gallery['pages']:
             generate_page(page, index, gallery)

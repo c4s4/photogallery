@@ -7,6 +7,9 @@ format:
 color:
   background: '#000000'
   foreground: '#FFFFFF'
+link:
+  new:     '#FFFFFF'
+  visited: '#AFAFAF'
 pages:
 - Alcazaba de Malaga:
   - 20130823_142434.jpg: La muraille
