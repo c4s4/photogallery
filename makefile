@@ -17,8 +17,8 @@ rsync:
 	@echo "${YELLOW}Rsync with web server${CLEAR}"
 	@for gallery in $(GALLERIES) ; do \
 		dest=`python -c "import os, yaml; print os.path.expanduser(yaml.load(open('$$gallery'))['destination'])"`; \
-		dir=`basename $$dest`; \
-		rsync -azv -e ssh $$dest casa@sweetohm.net:/home/web/photos/$$dir; \
+		dir=`basename "$$dest"`; \
+		rsync -azvs -e ssh "$$dest" casa@sweetohm.net:"/home/web/photos/$$dir"; \
 	done
 
 help:

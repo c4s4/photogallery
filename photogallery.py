@@ -62,7 +62,7 @@ a:visited
 </body>
 '''
 
-PHOTO = '''
+PHOTO = u'''
 <div>
 <a href="images/%(png)s">
 <img src="thumbnails/%(png)s" alt="%(comment)s">
@@ -158,18 +158,23 @@ def toext(filename, extension):
 
 def generate_images(page, gallery):
     for photo in page['photos']:
-        print "Converting %s" % photo['file']
+        print u"Converting %s" % photo['file']
         source = os.path.join(gallery['source'], photo['file'])
         image = os.path.join(gallery['destination'], 'images', photo['png'])
-        os.system("convert '%s' -resize %s '%s'" %
-                  (source, gallery['format']['image'], image))
         thumb = os.path.join(gallery['destination'], 'thumbnails', photo['png'])
-        os.system("convert '%s' -resize %s '%s'" %
-                  (source, gallery['format']['thumbnail'], thumb))
+        # source = unicode(source, encoding='UTF-8')
+        # image = unicode(image, encoding='UTF-8')
+        # thumb = unicode(thumb, encoding='UTF-8')
+        command = "convert '%s' -resize %s '%s'" % \
+                  (source, gallery['format']['image'], image)
+        os.system(command.encode('UTF-8'))
+        command = "convert '%s' -resize %s '%s'" % \
+                  (source, gallery['format']['thumbnail'], thumb)
+        os.system(command.encode('UTF-8'))
 
 
 def generate_page(page, index, gallery):
-    print "Generating page '%s'" % page['name']
+    print u"Generating page '%s'" % page['name']
     generate_html(page, index, gallery)
     generate_images(page, gallery)
 
