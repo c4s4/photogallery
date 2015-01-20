@@ -20,3 +20,9 @@ rsync:
 		dir=`basename $$dest`; \
 		rsync -azv -e ssh $$dest casa@sweetohm.net:/home/web/photos/$$dir; \
 	done
+
+help:
+	@echo "${YELLOW}Help${CLEAR}"
+	@echo "check:  Check Python code with Pylint"
+	@echo "run:    Run script to generate galleries"
+	@echo "rsync:  Sunchronize generated galleries with site"
