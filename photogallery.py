@@ -85,7 +85,10 @@ def parse_config(config):
     for p in gallery['pages']:
         page = {'name': p.keys()[0], 'photos': []}
         for h in p[p.keys()[0]]:
-            photo = {'file': h.keys()[0], 'comment': h[h.keys()[0]]}
+            comment = h[h.keys()[0]]
+            if not comment:
+                comment = ''
+            photo = {'file': h.keys()[0], 'comment': comment}
             photo['png'] = toext(photo['file'], '.png')
             page['photos'].append(photo)
         pages.append(page)
