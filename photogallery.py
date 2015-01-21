@@ -157,9 +157,7 @@ def toext(filename, extension):
     return filename[:filename.rindex('.')]+extension
 
 
-def generate_image(args):
-    photo = args[0]
-    gallery = args[1]
+def generate_image(photo, gallery):
     print u"Converting %s" % photo['file']
     source = os.path.join(gallery['source'], photo['file'])
     image = os.path.join(gallery['destination'], 'images', photo['png'])
@@ -172,11 +170,15 @@ def generate_image(args):
     os.system(command.encode('UTF-8'))
 
 
+def generate_image_job(args):
+    generate_image(*args)
+
+
 def generate_images(page, gallery):
     nb_cpus = multiprocessing.cpu_count()
     pool = multiprocessing.Pool(nb_cpus)
     tasks = [(photo, gallery) for photo in page['photos']]
-    pool.map(generate_image, tasks)
+    pool.map(generate_image_job, tasks)
 
 
 def generate_page(page, index, gallery):
