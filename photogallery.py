@@ -10,6 +10,7 @@ import sys
 import yaml
 import codecs
 import traceback
+import multiprocessing
 
 
 PAGE = u'''
@@ -93,12 +94,12 @@ def parse_config(config):
             page['photos'].append(photo)
         pages.append(page)
     gallery['pages'] = pages
+    gallery['source'] = os.path.expanduser(gallery['source'])
+    gallery['destination'] = os.path.expanduser(gallery['destination'])
     return gallery
 
 
 def directories(gallery):
-    gallery['source'] = os.path.expanduser(gallery['source'])
-    gallery['destination'] = os.path.expanduser(gallery['destination'])
     if not os.path.exists(gallery['source']):
         raise ManagedException("Source directory doesn't exists")
     if os.path.exists(gallery['destination']):
@@ -156,21 +157,26 @@ def toext(filename, extension):
     return filename[:filename.rindex('.')]+extension
 
 
+def generate_image(args):
+    photo = args[0]
+    gallery = args[1]
+    print u"Converting %s" % photo['file']
+    source = os.path.join(gallery['source'], photo['file'])
+    image = os.path.join(gallery['destination'], 'images', photo['png'])
+    thumb = os.path.join(gallery['destination'], 'thumbnails', photo['png'])
+    command = "convert '%s' -resize %s '%s'" % \
+              (source, gallery['format']['image'], image)
+    os.system(command.encode('UTF-8'))
+    command = "convert '%s' -resize %s '%s'" % \
+              (source, gallery['format']['thumbnail'], thumb)
+    os.system(command.encode('UTF-8'))
+
+
 def generate_images(page, gallery):
-    for photo in page['photos']:
-        print u"Converting %s" % photo['file']
-        source = os.path.join(gallery['source'], photo['file'])
-        image = os.path.join(gallery['destination'], 'images', photo['png'])
-        thumb = os.path.join(gallery['destination'], 'thumbnails', photo['png'])
-        # source = unicode(source, encoding='UTF-8')
-        # image = unicode(image, encoding='UTF-8')
-        # thumb = unicode(thumb, encoding='UTF-8')
-        command = "convert '%s' -resize %s '%s'" % \
-                  (source, gallery['format']['image'], image)
-        os.system(command.encode('UTF-8'))
-        command = "convert '%s' -resize %s '%s'" % \
-                  (source, gallery['format']['thumbnail'], thumb)
-        os.system(command.encode('UTF-8'))
+    nb_cpus = multiprocessing.cpu_count()
+    pool = multiprocessing.Pool(nb_cpus)
+    tasks = [(photo, gallery) for photo in page['photos']]
+    pool.map(generate_image, tasks)
 
 
 def generate_page(page, index, gallery):
@@ -192,8 +198,8 @@ def main(config):
     try:
         gallery = parse_config(config)
         print "Generating gallery '%s'" % gallery['title']
-        directories(gallery)
         check_photos(gallery)
+        directories(gallery)
         index = 1
         for page in gallery['pages']:
             generate_page(page, index, gallery)
