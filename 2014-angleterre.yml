@@ -1,15 +1,6 @@
 title:       Vacances en Angleterre été 2014
 source:      ~/dsk/2014-08-20 Voyage Angleterre été 2014/
 destination: ~/dsk/2014 Angleterre/
-format:
-  image:     1920x1080
-  thumbnail: 240x135
-color:
-  background: '#000000'
-  foreground: '#FFFFFF'
-link:
-  new:     '#FFFFFF'
-  visited: '#AFAFAF'
 pages:
 - Hyde Park:
   - 20140820_172855.jpg: So British !

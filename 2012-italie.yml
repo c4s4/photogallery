@@ -1,15 +1,6 @@
 title:       Vacances en Italie été 2012
 source:      ~/dsk/2012-08-17 Vacances Italie 2012/
 destination: ~/dsk/2012 Italie/
-format:
-  image:     1920x1080
-  thumbnail: 240x135
-color:
-  background: '#000000'
-  foreground: '#FFFFFF'
-link:
-  new:     '#FFFFFF'
-  visited: '#AFAFAF'
 pages:
 - Villa Borghese & place Spagna:
   - IMG_4255.jpg: 

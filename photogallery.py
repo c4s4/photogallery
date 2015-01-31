@@ -13,6 +13,23 @@ import traceback
 import multiprocessing
 
 
+DEFAULTS = {
+    'format': {
+        'image':     '1920x1080',
+        'thumbnail': '240x135',
+    },
+    'color': {
+        'background': '#000000',
+        'foreground': '#FFFFFF',
+    },
+    'link': {
+        'new':     '#FFFFFF',
+        'visited': '#AFAFAF',
+    },
+}
+
+MANDATORY = ('title', 'source', 'destination', 'pages')
+
 PAGE = u'''
 <html>
 <head>
@@ -82,6 +99,12 @@ class ManagedException(Exception):
 def parse_config(config):
     with open(config) as stream:
         gallery = yaml.load(stream)
+    for section in MANDATORY:
+        if not section in gallery:
+            raise ManagedException("Missing mandatory section '%s'" % section)
+    for section in DEFAULTS.keys():
+        if not section in gallery.keys():
+            gallery[section] = DEFAULTS[section]
     pages = []
     for p in gallery['pages']:
         page = {'name': p.keys()[0], 'photos': []}

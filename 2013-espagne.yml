@@ -1,15 +1,6 @@
 title:       Vacances en Espagne été 2013
 source:      ~/dsk/2013-08-23 Vacances Espagne Malaga 2013/
 destination: ~/dsk/2013 Espagne/
-format:
-  image:     1920x1080
-  thumbnail: 240x135
-color:
-  background: '#000000'
-  foreground: '#FFFFFF'
-link:
-  new:     '#FFFFFF'
-  visited: '#AFAFAF'
 pages:
 - Malaga:
   - 20130823_095135.jpg: Gorille dans le sable
