@@ -1,0 +1,3344 @@
+#Imagination 2.0 Slideshow Project - http://imagination.sf.net
+
+[slideshow settings]
+video format=480
+background color=0;0;0;
+distort images=false
+number of slides=221
+
+[slide 1]
+filename=/home/casa/dsk/images/IMG_4255.png
+angle=0
+duration=1
+transition_id=51
+speed=4
+no_points=0
+text=Villa Borghese & \nplace Spagna
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 2]
+filename=/home/casa/dsk/images/IMG_4261.png
+angle=0
+duration=1
+transition_id=27
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 3]
+filename=/home/casa/dsk/images/IMG_4272.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 4]
+filename=/home/casa/dsk/images/IMG_4301.png
+angle=0
+duration=1
+transition_id=3
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 5]
+filename=/home/casa/dsk/images/IMG_4308.png
+angle=0
+duration=1
+transition_id=18
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 6]
+filename=/home/casa/dsk/images/IMG_4318.png
+angle=0
+duration=1
+transition_id=50
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 7]
+filename=/home/casa/dsk/images/IMG_4319.png
+angle=0
+duration=1
+transition_id=26
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 8]
+filename=/home/casa/dsk/images/IMG_4336.png
+angle=0
+duration=1
+transition_id=24
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 9]
+filename=/home/casa/dsk/images/IMG_4345.png
+angle=0
+duration=1
+transition_id=60
+speed=4
+no_points=0
+text=Capitole & musées, \nPanthéon & \nplazza Navona
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 10]
+filename=/home/casa/dsk/images/IMG_4356.png
+angle=0
+duration=1
+transition_id=2
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 11]
+filename=/home/casa/dsk/images/IMG_4359.png
+angle=0
+duration=1
+transition_id=38
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 12]
+filename=/home/casa/dsk/images/IMG_4360.png
+angle=0
+duration=1
+transition_id=27
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 13]
+filename=/home/casa/dsk/images/IMG_4365.png
+angle=0
+duration=1
+transition_id=22
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 14]
+filename=/home/casa/dsk/images/IMG_4378.png
+angle=0
+duration=1
+transition_id=11
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 15]
+filename=/home/casa/dsk/images/IMG_4383.png
+angle=0
+duration=1
+transition_id=35
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 16]
+filename=/home/casa/dsk/images/IMG_4396.png
+angle=0
+duration=1
+transition_id=8
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 17]
+filename=/home/casa/dsk/images/IMG_4408.png
+angle=0
+duration=1
+transition_id=34
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 18]
+filename=/home/casa/dsk/images/IMG_4418.png
+angle=0
+duration=1
+transition_id=35
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 19]
+filename=/home/casa/dsk/images/IMG_4427.png
+angle=0
+duration=1
+transition_id=69
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 20]
+filename=/home/casa/dsk/images/IMG_4435.png
+angle=0
+duration=1
+transition_id=27
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 21]
+filename=/home/casa/dsk/images/IMG_4441.png
+angle=0
+duration=1
+transition_id=68
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 22]
+filename=/home/casa/dsk/images/IMG_4450.png
+angle=0
+duration=1
+transition_id=38
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 23]
+filename=/home/casa/dsk/images/IMG_4457.png
+angle=0
+duration=1
+transition_id=38
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 24]
+filename=/home/casa/dsk/images/IMG_4466.png
+angle=0
+duration=1
+transition_id=44
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 25]
+filename=/home/casa/dsk/images/IMG_4470.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 26]
+filename=/home/casa/dsk/images/IMG_4472.png
+angle=0
+duration=1
+transition_id=50
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 27]
+filename=/home/casa/dsk/images/IMG_4477.png
+angle=0
+duration=1
+transition_id=14
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 28]
+filename=/home/casa/dsk/images/IMG_4486.png
+angle=0
+duration=1
+transition_id=14
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 29]
+filename=/home/casa/dsk/images/IMG_4502.png
+angle=0
+duration=1
+transition_id=38
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 30]
+filename=/home/casa/dsk/images/IMG_4511.png
+angle=0
+duration=1
+transition_id=66
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 31]
+filename=/home/casa/dsk/images/IMG_4535.png
+angle=0
+duration=1
+transition_id=47
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 32]
+filename=/home/casa/dsk/images/IMG_4547.png
+angle=0
+duration=1
+transition_id=35
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 33]
+filename=/home/casa/dsk/images/IMG_4575.png
+angle=0
+duration=1
+transition_id=26
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 34]
+filename=/home/casa/dsk/images/IMG_4582.png
+angle=0
+duration=1
+transition_id=34
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 35]
+filename=/home/casa/dsk/images/IMG_4608.png
+angle=0
+duration=1
+transition_id=21
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 36]
+filename=/home/casa/dsk/images/IMG_4618.png
+angle=0
+duration=1
+transition_id=36
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 37]
+filename=/home/casa/dsk/images/IMG_4647.png
+angle=0
+duration=1
+transition_id=46
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 38]
+filename=/home/casa/dsk/images/IMG_4671.png
+angle=0
+duration=1
+transition_id=2
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 39]
+filename=/home/casa/dsk/images/IMG_4688.png
+angle=0
+duration=1
+transition_id=36
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 40]
+filename=/home/casa/dsk/images/IMG_4700.png
+angle=0
+duration=1
+transition_id=7
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 41]
+filename=/home/casa/dsk/images/IMG_4747.png
+angle=0
+duration=1
+transition_id=21
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 42]
+filename=/home/casa/dsk/images/IMG_4770.png
+angle=0
+duration=1
+transition_id=29
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 43]
+filename=/home/casa/dsk/images/IMG_4806.png
+angle=0
+duration=1
+transition_id=71
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 44]
+filename=/home/casa/dsk/images/IMG_4830.png
+angle=0
+duration=1
+transition_id=3
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 45]
+filename=/home/casa/dsk/images/IMG_4842.png
+angle=0
+duration=1
+transition_id=34
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 46]
+filename=/home/casa/dsk/images/IMG_4855.png
+angle=0
+duration=1
+transition_id=25
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 47]
+filename=/home/casa/dsk/images/IMG_4883.png
+angle=0
+duration=1
+transition_id=18
+speed=4
+no_points=0
+text=Via Appia Antica
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 48]
+filename=/home/casa/dsk/images/IMG_4888.png
+angle=0
+duration=1
+transition_id=58
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 49]
+filename=/home/casa/dsk/images/IMG_4905.png
+angle=0
+duration=1
+transition_id=70
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 50]
+filename=/home/casa/dsk/images/IMG_4926.png
+angle=0
+duration=1
+transition_id=34
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 51]
+filename=/home/casa/dsk/images/IMG_5015.png
+angle=0
+duration=1
+transition_id=20
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 52]
+filename=/home/casa/dsk/images/IMG_5017.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 53]
+filename=/home/casa/dsk/images/IMG_5041.png
+angle=0
+duration=1
+transition_id=16
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 54]
+filename=/home/casa/dsk/images/IMG_5063.png
+angle=0
+duration=1
+transition_id=37
+speed=4
+no_points=0
+text=Colisée, Palatin, Forum &\n fontaine de Trévi
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 55]
+filename=/home/casa/dsk/images/IMG_5093.png
+angle=0
+duration=1
+transition_id=13
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 56]
+filename=/home/casa/dsk/images/IMG_5100.png
+angle=0
+duration=1
+transition_id=6
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 57]
+filename=/home/casa/dsk/images/IMG_5104.png
+angle=0
+duration=1
+transition_id=18
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 58]
+filename=/home/casa/dsk/images/IMG_5106.png
+angle=0
+duration=1
+transition_id=13
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 59]
+filename=/home/casa/dsk/images/IMG_5120.png
+angle=0
+duration=1
+transition_id=14
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 60]
+filename=/home/casa/dsk/images/IMG_5134.png
+angle=0
+duration=1
+transition_id=40
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 61]
+filename=/home/casa/dsk/images/IMG_5145.png
+angle=0
+duration=1
+transition_id=17
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 62]
+filename=/home/casa/dsk/images/IMG_5148.png
+angle=0
+duration=1
+transition_id=10
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 63]
+filename=/home/casa/dsk/images/IMG_5187.png
+angle=0
+duration=1
+transition_id=44
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 64]
+filename=/home/casa/dsk/images/IMG_5188.png
+angle=0
+duration=1
+transition_id=64
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 65]
+filename=/home/casa/dsk/images/IMG_5190.png
+angle=0
+duration=1
+transition_id=17
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 66]
+filename=/home/casa/dsk/images/IMG_5208.png
+angle=0
+duration=1
+transition_id=29
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 67]
+filename=/home/casa/dsk/images/IMG_5209.png
+angle=0
+duration=1
+transition_id=36
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 68]
+filename=/home/casa/dsk/images/IMG_5218.png
+angle=0
+duration=1
+transition_id=36
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 69]
+filename=/home/casa/dsk/images/IMG_5224.png
+angle=0
+duration=1
+transition_id=9
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 70]
+filename=/home/casa/dsk/images/IMG_5244.png
+angle=0
+duration=1
+transition_id=13
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 71]
+filename=/home/casa/dsk/images/IMG_5284.png
+angle=0
+duration=1
+transition_id=22
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 72]
+filename=/home/casa/dsk/images/IMG_5295.png
+angle=0
+duration=1
+transition_id=27
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 73]
+filename=/home/casa/dsk/images/IMG_5305.png
+angle=0
+duration=1
+transition_id=56
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 74]
+filename=/home/casa/dsk/images/IMG_5327.png
+angle=0
+duration=1
+transition_id=33
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 75]
+filename=/home/casa/dsk/images/IMG_5340.png
+angle=0
+duration=1
+transition_id=52
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 76]
+filename=/home/casa/dsk/images/IMG_5354.png
+angle=0
+duration=1
+transition_id=70
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 77]
+filename=/home/casa/dsk/images/IMG_5363.png
+angle=0
+duration=1
+transition_id=1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 78]
+filename=/home/casa/dsk/images/IMG_5371.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 79]
+filename=/home/casa/dsk/images/IMG_5388.png
+angle=0
+duration=1
+transition_id=9
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 80]
+filename=/home/casa/dsk/images/IMG_5409.png
+angle=0
+duration=1
+transition_id=36
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 81]
+filename=/home/casa/dsk/images/IMG_5418.png
+angle=0
+duration=1
+transition_id=13
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 82]
+filename=/home/casa/dsk/images/IMG_5424.png
+angle=0
+duration=1
+transition_id=67
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 83]
+filename=/home/casa/dsk/images/IMG_5427.png
+angle=0
+duration=1
+transition_id=23
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 84]
+filename=/home/casa/dsk/images/IMG_5459.png
+angle=0
+duration=1
+transition_id=48
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 85]
+filename=/home/casa/dsk/images/IMG_5464.png
+angle=0
+duration=1
+transition_id=24
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 86]
+filename=/home/casa/dsk/images/IMG_5473.png
+angle=0
+duration=1
+transition_id=16
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 87]
+filename=/home/casa/dsk/images/IMG_5478.png
+angle=0
+duration=1
+transition_id=43
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 88]
+filename=/home/casa/dsk/images/IMG_5486.png
+angle=0
+duration=1
+transition_id=3
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 89]
+filename=/home/casa/dsk/images/IMG_5490.png
+angle=0
+duration=1
+transition_id=69
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 90]
+filename=/home/casa/dsk/images/IMG_5493.png
+angle=0
+duration=1
+transition_id=27
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 91]
+filename=/home/casa/dsk/images/IMG_5508.png
+angle=0
+duration=1
+transition_id=16
+speed=4
+no_points=0
+text=Tour de Rome en bus
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 92]
+filename=/home/casa/dsk/images/IMG_5512.png
+angle=0
+duration=1
+transition_id=12
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 93]
+filename=/home/casa/dsk/images/IMG_5515.png
+angle=0
+duration=1
+transition_id=38
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 94]
+filename=/home/casa/dsk/images/IMG_5518.png
+angle=0
+duration=1
+transition_id=14
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 95]
+filename=/home/casa/dsk/images/IMG_5521.png
+angle=0
+duration=1
+transition_id=3
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 96]
+filename=/home/casa/dsk/images/IMG_5524.png
+angle=0
+duration=1
+transition_id=24
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 97]
+filename=/home/casa/dsk/images/IMG_5527.png
+angle=0
+duration=1
+transition_id=6
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 98]
+filename=/home/casa/dsk/images/IMG_5545.png
+angle=0
+duration=1
+transition_id=36
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 99]
+filename=/home/casa/dsk/images/IMG_5550.png
+angle=0
+duration=1
+transition_id=15
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 100]
+filename=/home/casa/dsk/images/IMG_5562.png
+angle=0
+duration=1
+transition_id=33
+speed=4
+no_points=0
+text=Ostie
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 101]
+filename=/home/casa/dsk/images/IMG_5564.png
+angle=0
+duration=1
+transition_id=52
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 102]
+filename=/home/casa/dsk/images/IMG_5601.png
+angle=0
+duration=1
+transition_id=18
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 103]
+filename=/home/casa/dsk/images/IMG_5643.png
+angle=0
+duration=1
+transition_id=24
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 104]
+filename=/home/casa/dsk/images/IMG_5664.png
+angle=0
+duration=1
+transition_id=35
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 105]
+filename=/home/casa/dsk/images/IMG_5700.png
+angle=0
+duration=1
+transition_id=3
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 106]
+filename=/home/casa/dsk/images/IMG_5711.png
+angle=0
+duration=1
+transition_id=12
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 107]
+filename=/home/casa/dsk/images/IMG_5726.png
+angle=0
+duration=1
+transition_id=59
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 108]
+filename=/home/casa/dsk/images/IMG_5737.png
+angle=0
+duration=1
+transition_id=44
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 109]
+filename=/home/casa/dsk/images/IMG_5755.png
+angle=0
+duration=1
+transition_id=52
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 110]
+filename=/home/casa/dsk/images/IMG_5760.png
+angle=0
+duration=1
+transition_id=22
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 111]
+filename=/home/casa/dsk/images/IMG_5767.png
+angle=0
+duration=1
+transition_id=19
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 112]
+filename=/home/casa/dsk/images/IMG_5771.png
+angle=0
+duration=1
+transition_id=37
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 113]
+filename=/home/casa/dsk/images/IMG_5779.png
+angle=0
+duration=1
+transition_id=6
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 114]
+filename=/home/casa/dsk/images/IMG_5785.png
+angle=0
+duration=1
+transition_id=25
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 115]
+filename=/home/casa/dsk/images/IMG_5790.png
+angle=0
+duration=1
+transition_id=58
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 116]
+filename=/home/casa/dsk/images/IMG_5822.png
+angle=0
+duration=1
+transition_id=44
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 117]
+filename=/home/casa/dsk/images/IMG_5835.png
+angle=0
+duration=1
+transition_id=14
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 118]
+filename=/home/casa/dsk/images/IMG_5860.png
+angle=0
+duration=1
+transition_id=36
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 119]
+filename=/home/casa/dsk/images/IMG_5866.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+text=Saint Pierre de Rome, \nChateau Saint Ange
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 120]
+filename=/home/casa/dsk/images/IMG_5869.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 121]
+filename=/home/casa/dsk/images/IMG_5870.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 122]
+filename=/home/casa/dsk/images/IMG_5880.png
+angle=0
+duration=1
+transition_id=37
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 123]
+filename=/home/casa/dsk/images/IMG_5883.png
+angle=0
+duration=1
+transition_id=43
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 124]
+filename=/home/casa/dsk/images/IMG_5889.png
+angle=0
+duration=1
+transition_id=56
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 125]
+filename=/home/casa/dsk/images/IMG_5891.png
+angle=0
+duration=1
+transition_id=67
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 126]
+filename=/home/casa/dsk/images/IMG_5895.png
+angle=0
+duration=1
+transition_id=23
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 127]
+filename=/home/casa/dsk/images/IMG_5907.png
+angle=0
+duration=1
+transition_id=21
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 128]
+filename=/home/casa/dsk/images/IMG_5919.png
+angle=0
+duration=1
+transition_id=32
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 129]
+filename=/home/casa/dsk/images/IMG_5926.png
+angle=0
+duration=1
+transition_id=19
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 130]
+filename=/home/casa/dsk/images/IMG_5938.png
+angle=0
+duration=1
+transition_id=2
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 131]
+filename=/home/casa/dsk/images/IMG_5952.png
+angle=0
+duration=1
+transition_id=57
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 132]
+filename=/home/casa/dsk/images/IMG_5954.png
+angle=0
+duration=1
+transition_id=16
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 133]
+filename=/home/casa/dsk/images/IMG_5957.png
+angle=0
+duration=1
+transition_id=15
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 134]
+filename=/home/casa/dsk/images/IMG_5960.png
+angle=0
+duration=1
+transition_id=4
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 135]
+filename=/home/casa/dsk/images/IMG_5984.png
+angle=0
+duration=1
+transition_id=63
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 136]
+filename=/home/casa/dsk/images/IMG_5990.png
+angle=0
+duration=1
+transition_id=18
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 137]
+filename=/home/casa/dsk/images/IMG_6015.png
+angle=0
+duration=1
+transition_id=18
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 138]
+filename=/home/casa/dsk/images/IMG_6020.png
+angle=0
+duration=1
+transition_id=35
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 139]
+filename=/home/casa/dsk/images/IMG_6034.png
+angle=0
+duration=1
+transition_id=56
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 140]
+filename=/home/casa/dsk/images/IMG_6038.png
+angle=0
+duration=1
+transition_id=69
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 141]
+filename=/home/casa/dsk/images/IMG_6039.png
+angle=0
+duration=1
+transition_id=52
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 142]
+filename=/home/casa/dsk/images/IMG_6054.png
+angle=0
+duration=1
+transition_id=68
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 143]
+filename=/home/casa/dsk/images/IMG_6061.png
+angle=0
+duration=1
+transition_id=38
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 144]
+filename=/home/casa/dsk/images/IMG_6064.png
+angle=0
+duration=1
+transition_id=70
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 145]
+filename=/home/casa/dsk/images/IMG_6066.png
+angle=0
+duration=1
+transition_id=27
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 146]
+filename=/home/casa/dsk/images/IMG_6068.png
+angle=0
+duration=1
+transition_id=61
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 147]
+filename=/home/casa/dsk/images/IMG_6081.png
+angle=0
+duration=1
+transition_id=56
+speed=4
+no_points=0
+text=Voyage vers Florence
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 148]
+filename=/home/casa/dsk/images/IMG_6083.png
+angle=0
+duration=1
+transition_id=64
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 149]
+filename=/home/casa/dsk/images/IMG_6084.png
+angle=0
+duration=1
+transition_id=53
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 150]
+filename=/home/casa/dsk/images/IMG_6094.png
+angle=0
+duration=1
+transition_id=38
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 151]
+filename=/home/casa/dsk/images/IMG_6099.png
+angle=0
+duration=1
+transition_id=33
+speed=4
+no_points=0
+text=Florence
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 152]
+filename=/home/casa/dsk/images/IMG_6100.png
+angle=0
+duration=1
+transition_id=40
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 153]
+filename=/home/casa/dsk/images/IMG_6101.png
+angle=0
+duration=1
+transition_id=1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 154]
+filename=/home/casa/dsk/images/IMG_6107.png
+angle=0
+duration=1
+transition_id=19
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 155]
+filename=/home/casa/dsk/images/IMG_6113.png
+angle=0
+duration=1
+transition_id=71
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 156]
+filename=/home/casa/dsk/images/IMG_6134.png
+angle=0
+duration=1
+transition_id=21
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 157]
+filename=/home/casa/dsk/images/IMG_6141.png
+angle=0
+duration=1
+transition_id=7
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 158]
+filename=/home/casa/dsk/images/IMG_6147.png
+angle=0
+duration=1
+transition_id=18
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 159]
+filename=/home/casa/dsk/images/IMG_6168.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 160]
+filename=/home/casa/dsk/images/IMG_6170.png
+angle=0
+duration=1
+transition_id=11
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 161]
+filename=/home/casa/dsk/images/IMG_6175.png
+angle=0
+duration=1
+transition_id=36
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 162]
+filename=/home/casa/dsk/images/IMG_6193.png
+angle=0
+duration=1
+transition_id=14
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 163]
+filename=/home/casa/dsk/images/IMG_6209.png
+angle=0
+duration=1
+transition_id=65
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 164]
+filename=/home/casa/dsk/images/IMG_6210.png
+angle=0
+duration=1
+transition_id=15
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 165]
+filename=/home/casa/dsk/images/IMG_6213.png
+angle=0
+duration=1
+transition_id=70
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 166]
+filename=/home/casa/dsk/images/IMG_6238.png
+angle=0
+duration=1
+transition_id=58
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 167]
+filename=/home/casa/dsk/images/IMG_6241.png
+angle=0
+duration=1
+transition_id=57
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 168]
+filename=/home/casa/dsk/images/IMG_6248.png
+angle=0
+duration=1
+transition_id=36
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 169]
+filename=/home/casa/dsk/images/IMG_6262.png
+angle=0
+duration=1
+transition_id=16
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 170]
+filename=/home/casa/dsk/images/IMG_6272.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 171]
+filename=/home/casa/dsk/images/IMG_6283.png
+angle=0
+duration=1
+transition_id=70
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 172]
+filename=/home/casa/dsk/images/IMG_6294.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 173]
+filename=/home/casa/dsk/images/IMG_6303.png
+angle=0
+duration=1
+transition_id=14
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 174]
+filename=/home/casa/dsk/images/IMG_6312.png
+angle=0
+duration=1
+transition_id=59
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 175]
+filename=/home/casa/dsk/images/IMG_6326.png
+angle=0
+duration=1
+transition_id=44
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 176]
+filename=/home/casa/dsk/images/IMG_6337.png
+angle=0
+duration=1
+transition_id=27
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 177]
+filename=/home/casa/dsk/images/IMG_6338.png
+angle=0
+duration=1
+transition_id=71
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 178]
+filename=/home/casa/dsk/images/IMG_6390.png
+angle=0
+duration=1
+transition_id=32
+speed=4
+no_points=0
+text=Herculanum
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 179]
+filename=/home/casa/dsk/images/IMG_6406.png
+angle=0
+duration=1
+transition_id=26
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 180]
+filename=/home/casa/dsk/images/IMG_6435.png
+angle=0
+duration=1
+transition_id=14
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 181]
+filename=/home/casa/dsk/images/IMG_6440.png
+angle=0
+duration=1
+transition_id=38
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 182]
+filename=/home/casa/dsk/images/IMG_6454.png
+angle=0
+duration=1
+transition_id=2
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 183]
+filename=/home/casa/dsk/images/IMG_6486.png
+angle=0
+duration=1
+transition_id=29
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 184]
+filename=/home/casa/dsk/images/IMG_6491.png
+angle=0
+duration=1
+transition_id=37
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 185]
+filename=/home/casa/dsk/images/IMG_6535.png
+angle=0
+duration=1
+transition_id=68
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 186]
+filename=/home/casa/dsk/images/IMG_6550.png
+angle=0
+duration=1
+transition_id=15
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 187]
+filename=/home/casa/dsk/images/IMG_6579.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+text=Naples
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 188]
+filename=/home/casa/dsk/images/IMG_6580.png
+angle=0
+duration=1
+transition_id=70
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 189]
+filename=/home/casa/dsk/images/IMG_6588.png
+angle=0
+duration=1
+transition_id=28
+speed=4
+no_points=0
+text=Pompeï
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 190]
+filename=/home/casa/dsk/images/IMG_6594.png
+angle=0
+duration=1
+transition_id=19
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 191]
+filename=/home/casa/dsk/images/IMG_6600.png
+angle=0
+duration=1
+transition_id=35
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 192]
+filename=/home/casa/dsk/images/IMG_6609.png
+angle=0
+duration=1
+transition_id=45
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 193]
+filename=/home/casa/dsk/images/IMG_6660.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 194]
+filename=/home/casa/dsk/images/IMG_6670.png
+angle=0
+duration=1
+transition_id=15
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 195]
+filename=/home/casa/dsk/images/IMG_6672.png
+angle=0
+duration=1
+transition_id=65
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 196]
+filename=/home/casa/dsk/images/IMG_6682.png
+angle=0
+duration=1
+transition_id=7
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 197]
+filename=/home/casa/dsk/images/IMG_6713.png
+angle=0
+duration=1
+transition_id=68
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 198]
+filename=/home/casa/dsk/images/IMG_6724.png
+angle=0
+duration=1
+transition_id=67
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 199]
+filename=/home/casa/dsk/images/IMG_6731.png
+angle=0
+duration=1
+transition_id=13
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 200]
+filename=/home/casa/dsk/images/IMG_6740.png
+angle=0
+duration=1
+transition_id=47
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 201]
+filename=/home/casa/dsk/images/IMG_6741.png
+angle=0
+duration=1
+transition_id=58
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 202]
+filename=/home/casa/dsk/images/IMG_6748.png
+angle=0
+duration=1
+transition_id=25
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 203]
+filename=/home/casa/dsk/images/IMG_6764.png
+angle=0
+duration=1
+transition_id=18
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 204]
+filename=/home/casa/dsk/images/IMG_6771.png
+angle=0
+duration=1
+transition_id=34
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 205]
+filename=/home/casa/dsk/images/IMG_6779.png
+angle=0
+duration=1
+transition_id=40
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 206]
+filename=/home/casa/dsk/images/IMG_6783.png
+angle=0
+duration=1
+transition_id=5
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 207]
+filename=/home/casa/dsk/images/IMG_6788.png
+angle=0
+duration=1
+transition_id=3
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 208]
+filename=/home/casa/dsk/images/IMG_6808.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 209]
+filename=/home/casa/dsk/images/IMG_6813.png
+angle=0
+duration=1
+transition_id=58
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 210]
+filename=/home/casa/dsk/images/IMG_6825.png
+angle=0
+duration=1
+transition_id=42
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 211]
+filename=/home/casa/dsk/images/IMG_6836.png
+angle=0
+duration=1
+transition_id=34
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 212]
+filename=/home/casa/dsk/images/IMG_6848.png
+angle=0
+duration=1
+transition_id=11
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 213]
+filename=/home/casa/dsk/images/IMG_6852.png
+angle=0
+duration=1
+transition_id=16
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 214]
+filename=/home/casa/dsk/images/IMG_6881.png
+angle=0
+duration=1
+transition_id=36
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 215]
+filename=/home/casa/dsk/images/IMG_6894.png
+angle=0
+duration=1
+transition_id=37
+speed=4
+no_points=0
+text=Procida
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 216]
+filename=/home/casa/dsk/images/IMG_6897.png
+angle=0
+duration=1
+transition_id=26
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 217]
+filename=/home/casa/dsk/images/IMG_6899.png
+angle=0
+duration=1
+transition_id=18
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 218]
+filename=/home/casa/dsk/images/IMG_6965.png
+angle=0
+duration=1
+transition_id=39
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 219]
+filename=/home/casa/dsk/images/IMG_6987.png
+angle=0
+duration=1
+transition_id=34
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 220]
+filename=/home/casa/dsk/images/IMG_6996.png
+angle=0
+duration=1
+transition_id=14
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 221]
+filename=/home/casa/dsk/images/IMG_6997.png
+angle=0
+duration=1
+transition_id=23
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 36
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[music]
+number=6
+music_1=/home/casa/dsk/01 Voyage en Italie.ogg
+music_2=/home/casa/dsk/18 Week-End À Rome.ogg
+music_3=/home/casa/dsk/01 Voyage en Italie.ogg
+music_4=/home/casa/dsk/18 Week-End À Rome.ogg
+music_5=/home/casa/dsk/01 Voyage en Italie.ogg
+music_6=/home/casa/dsk/18 Week-End À Rome.ogg
