@@ -1,0 +1,746 @@
+#Imagination 2.0 Slideshow Project - http://imagination.sf.net
+
+[slideshow settings]
+video format=1080
+background color=0;0;0;
+distort images=true
+number of slides=49
+
+[slide 1]
+filename=/home/casa/dsk/images/20140820_172855.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 2]
+filename=/home/casa/dsk/images/20140820_185730.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 3]
+filename=/home/casa/dsk/images/20140820_191949.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 4]
+filename=/home/casa/dsk/images/20140821_094842.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 5]
+filename=/home/casa/dsk/images/20140821_103446.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 6]
+filename=/home/casa/dsk/images/20140821_124203.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 7]
+filename=/home/casa/dsk/images/20140821_124326.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 8]
+filename=/home/casa/dsk/images/20140821_130006.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 9]
+filename=/home/casa/dsk/images/20140821_130622.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 10]
+filename=/home/casa/dsk/images/20140821_153426.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 11]
+filename=/home/casa/dsk/images/20140821_162349.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 12]
+filename=/home/casa/dsk/images/20140821_174935.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 13]
+filename=/home/casa/dsk/images/20140821_190715.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 14]
+filename=/home/casa/dsk/images/20140822_130227.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 15]
+filename=/home/casa/dsk/images/20140822_135809.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 16]
+filename=/home/casa/dsk/images/20140822_144527.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 17]
+filename=/home/casa/dsk/images/20140822_152732.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 18]
+filename=/home/casa/dsk/images/20140822_154401.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 19]
+filename=/home/casa/dsk/images/20140822_172736.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 20]
+filename=/home/casa/dsk/images/20140822_181202.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 21]
+filename=/home/casa/dsk/images/20140823_150412.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 22]
+filename=/home/casa/dsk/images/20140823_160213.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 23]
+filename=/home/casa/dsk/images/20140823_170531.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 24]
+filename=/home/casa/dsk/images/20140823_171723.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 25]
+filename=/home/casa/dsk/images/20140823_181059.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 26]
+filename=/home/casa/dsk/images/20140824_143557.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 27]
+filename=/home/casa/dsk/images/20140824_144001.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 28]
+filename=/home/casa/dsk/images/20140824_154822.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 29]
+filename=/home/casa/dsk/images/20140825_144501.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 30]
+filename=/home/casa/dsk/images/20140825_144940.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 31]
+filename=/home/casa/dsk/images/20140826_122459.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 32]
+filename=/home/casa/dsk/images/20140826_141905.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 33]
+filename=/home/casa/dsk/images/20140826_152141.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 34]
+filename=/home/casa/dsk/images/20140826_162332.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 35]
+filename=/home/casa/dsk/images/20140826_163317.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 36]
+filename=/home/casa/dsk/images/20140828_153146.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 37]
+filename=/home/casa/dsk/images/20140828_153236.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 38]
+filename=/home/casa/dsk/images/20140828_164723.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 39]
+filename=/home/casa/dsk/images/20140828_171314.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 40]
+filename=/home/casa/dsk/images/20140828_180318.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 41]
+filename=/home/casa/dsk/images/20140828_181213.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 42]
+filename=/home/casa/dsk/images/20140828_181334.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 43]
+filename=/home/casa/dsk/images/20140829_152740.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 44]
+filename=/home/casa/dsk/images/20140829_153725.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 45]
+filename=/home/casa/dsk/images/20140829_190058.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 46]
+filename=/home/casa/dsk/images/20140830_132916.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 47]
+filename=/home/casa/dsk/images/20140830_160745.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 48]
+filename=/home/casa/dsk/images/20140830_162137.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 49]
+filename=/home/casa/dsk/images/20140830_175947.png
+angle=0
+duration=3
+transition_id=-1
+speed=4
+no_points=0
+anim id=0
+anim duration=1
+text pos=4
+placing=0
+font=Sans 12
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[music]
+number=1
+music_1=/home/casa/dsk/01 God Save the Queen.ogg

@@ -3,7 +3,7 @@
 [slideshow settings]
 video format=480
 background color=0;0;0;
-distort images=false
+distort images=true
 number of slides=221
 
 [slide 1]
