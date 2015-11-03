@@ -25,3 +25,5 @@ pages:
 ```
 
 This will generate one page for each line in `pages` section.
+
+Videos are made with *imagination* from pictures and music (in *.ogg* format).
