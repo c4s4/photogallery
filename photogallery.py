@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # encoding: UTF-8
+# requirements: PyYaml
 #
 # Script to generate a web photo gallery. Usage:
 #
